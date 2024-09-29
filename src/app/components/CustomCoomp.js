@@ -23,7 +23,7 @@ const CircularPricingTool = () => {
         onClick={() => toggleSelection('section1')}
       >
         <div className="slice-contents">
-          <div className="center-content">
+          <div className="center-content center-feature-sb">
             <FaNetworkWired size={40} />
             <p>Secure Branch</p>
           </div>
@@ -34,7 +34,7 @@ const CircularPricingTool = () => {
         onClick={() => toggleSelection('section2')}
       >
         <div className="slice-contents">
-          <div className="center-content">
+          <div className="center-content center-feature-sa">
             <FaShieldAlt size={40} />
             <p>Secure Applications</p>
           </div>
@@ -45,7 +45,7 @@ const CircularPricingTool = () => {
         onClick={() => toggleSelection('section3')}
       >
         <div className="slice-contents">
-          <div className="center-content">
+          <div className="center-content center-feature-sw">
             <FaDesktop size={40} />
             <p>Secure Workstations</p>
           </div>

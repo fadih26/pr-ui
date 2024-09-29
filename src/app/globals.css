@@ -52,10 +52,30 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transform: skewY(30deg); /* Counter the skew for upright positioning */
-  height: 100%; 
+  height: 100%;
   color: white;
+  position: absolute;
+  left: 54%;
+  bottom: 10%;
 }
+
+.center-feature-sb{
+  left: 60%;
+      bottom: 10%;
+      transform: rotate(60deg);
+  }
+  
+  .center-feature-sa{
+  left: 60%;
+      bottom: 10%;
+      transform: rotate(-60deg);
+  }
+  .center-feature-sw{
+  left: 60%;
+      bottom: 10%;
+      transform: rotate(180deg);
+  }
+  
 
 .slice:nth-child(1) {
   transform: rotate(-60deg) skewY(30deg) scale(1.2);
